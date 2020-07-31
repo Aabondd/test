@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normolize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Dialog Box</title>
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="sidebar-nav">
+        <div class="logo">
+          <a href=""
+            ><img src="img/logo/logo.png" width="35px" height="35px" alt="logo"
+          /></a>
+        </div>
+
+        <ul class="sidebar-menu-list">
+          <li class="sidebar-menu-item notification">
+            <div class="notification-icon"><span>1</span></div>
+            <svg class="svg-calendar">
+              <a xlink:href="#">
+                <use href="img/svg/calendar.svg#calendar"></use>
+              </a>
+            </svg>
+          </li>
+
+          <li class="sidebar-menu-item">
+            <svg class="svg-profile">
+              <a xlink:href="#">
+                <use href="img/svg/profile.svg#profile"></use>
+              </a>
+            </svg>
+          </li>
+
+          <li class="sidebar-menu-item">
+            <svg class="svg-tools">
+              <a xlink:href="#">
+                <use href="img/svg/tools.svg#tools"></use>
+              </a>
+            </svg>
+          </li>
+
+          <li class="sidebar-menu-item">
+            <svg class="svg-group">
+              <a xlink:href="#">
+                <use href="img/svg/group.svg#group"></use>
+              </a>
+            </svg>
+          </li>
+
+          <li class="sidebar-menu-item">
+            <svg class="svg-messages">
+              <a xlink:href="#">
+                <use href="img/svg/messages.svg#messages"></use>
+              </a>
+            </svg>
+          </li>
+        </ul>
+      </div>
+
+      <div id="wrapper">
+        <div id="menu-nav">
+          <ul class="nav-menu-list">
+            <li class="nav-menu-item arrow"><a href="#">Home</a></li>
+            <li class="nav-menu-item"><a href="#">Network</a></li>
+          </ul>
+
+          <div class="user-profile">
+            <img
+              src="./img/profile/sarah.png"
+              width="22px"
+              height="22px"
+              alt=""
+            />
+            <a href="#">
+              <p>Sarah Freeman</p>
+            </a>
+          </div>
+        </div>
+
+        <div id="chat-container">
+          <div id="conversation-list">
+            <div class="conversation active muted">
+              <img
+                src="./img/profile/miranda.png"
+                width="50px"
+                height="50px"
+                alt="Miranda Hops"
+              />
+              <div class="title-text">Miranda Hops</div>
+              <svg class="svg-mute">
+                <use href="img/svg/mute.svg#mute"></use>
+              </svg>
+              <div class="created-time">9:32</div>
+              <div class="conversation-message">
+                Excepteur sint occaecatar…
+              </div>
+              <div class="online-status"></div>
+            </div>
+
+            <div class="conversation active">
+              <img src="./img/profile/barry.png" alt="Barry Callebaut" />
+              <div class="title-text">Barry Callebaut</div>
+              <div class="created-time">22:01</div>
+              <div class="conversation-message">
+                Nemo enim ipsam volupta…
+              </div>
+            </div>
+
+            <div class="conversation online marked">
+              <img src="./img/profile/stacey.png" alt="Stacey Dosh" />
+              <div class="title-text">Stacey Dosh</div>
+              <svg class="svg-mute">
+                <use href="#"></use>
+              </svg>
+              <div class="created-time">19:15</div>
+              <div class="conversation-message">
+                Ut enim ad minima veniam…
+              </div>
+              <div class="online-status"></div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/michael.png" alt="Michael Kors" />
+              <div class="title-text">Michael Kors</div>
+              <div class="created-time">13:49</div>
+              <div class="conversation-message">
+                To take a trivial example…
+              </div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/johny.png" alt="Johny Cash" />
+              <div class="title-text">Johny Cash</div>
+              <div class="created-time">10:25</div>
+              <div class="conversation-message">
+                Great explorer of the truth…
+              </div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/stacey-girl.png" alt="Stacey Dosh" />
+              <div class="title-text">Stacey Dosh</div>
+              <div class="created-time">08:53</div>
+              <div class="conversation-message">
+                Ut enim ad minima veniam…
+              </div>
+            </div>
+            <div class="conversation">
+              <img src="./img/profile/stacey.png" alt="Stacey Dosh" />
+              <div class="title-text">Stacey Dosh</div>
+              <div class="created-time">19:15</div>
+              <div class="conversation-message">
+                Ut enim ad minima veniam…
+              </div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/michael.png" alt="Michael Kors" />
+              <div class="title-text">Michael Kors</div>
+              <div class="created-time">13:49</div>
+              <div class="conversation-message">
+                To take a trivial example…
+              </div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/johny.png" alt="Johny Cash" />
+              <div class="title-text">Johny Cash</div>
+              <div class="created-time">10:25</div>
+              <div class="conversation-message">
+                Great explorer of the truth…
+              </div>
+            </div>
+
+            <div class="conversation">
+              <img src="./img/profile/stacey-girl.png" alt="Stacey Dosh" />
+              <div class="title-text">Stacey Dosh</div>
+              <div class="created-time">08:53</div>
+              <div class="conversation-message">
+                Ut enim ad minima veniam…
+              </div>
+            </div>
+          </div>
+
+          <div id="search-container">
+            <form action="#">
+              <input type="text" placeholder="Search message..." />
+            </form>
+          </div>
+
+          <div id="chat-message-list">
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">
+                  To take a trivial example, which of us ever undertakes)
+                </div>
+                <div class="message-time">1:38</div>
+              </div>
+            </div>
+
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  But in certain circumstances and owing to the claims of duty
+                  or the obligations of business it will frequently occur that
+                  pleasures
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">Which is the same as saying?</div>
+                <div class="message-time">01:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  On the other hand, we denounce with righteous indignation!
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">
+                  To take a trivial example, which of us ever undertakes)
+                </div>
+                <div class="message-time">1:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  But in certain circumstances and owing to the claims of duty
+                  or the obligations of business it will frequently occur that
+                  pleasures
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">Which is the same as saying?</div>
+                <div class="message-time">01:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  On the other hand, we denounce with righteous indignation!
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">
+                  To take a trivial example, which of us ever undertakes)
+                </div>
+                <div class="message-time">1:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  But in certain circumstances and owing to the claims of duty
+                  or the obligations of business it will frequently occur that
+                  pleasures
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">Which is the same as saying?</div>
+                <div class="message-time">01:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  On the other hand, we denounce with righteous indignation!
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">
+                  To take a trivial example, which of us ever undertakes)
+                </div>
+                <div class="message-time">1:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  But in certain circumstances and owing to the claims of duty
+                  or the obligations of business it will frequently occur that
+                  pleasures
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="message-row you-message">
+              <div class="message-content">
+                <div class="message-text">Which is the same as saying?</div>
+                <div class="message-time">01:38</div>
+              </div>
+            </div>
+            <div class="message-row other-message">
+              <div class="message-content">
+                <img src="./img/profile/stacey-small.png" alt="Stacey Dosh" />
+                <div class="message-text">
+                  On the other hand, we denounce with righteous indignation!
+                </div>
+                <div class="message-time">1:14</div>
+              </div>
+            </div>
+
+            <div class="start-time">Today, 17.03.2018</div>
+          </div>
+
+          <div id="write-msg-container">
+            <form action="#">
+              <input type="text" placeholder="Write a message..." />
+            </form>
+            <div class="icons">
+              <svg class="svg-smile">
+                <use href="img/svg/smile.svg#smile"></use>
+              </svg>
+              <svg class="svg-clip">
+                <use href="img/svg/clip.svg#clip"></use>
+              </svg>
+              <svg class="svg-plane">
+                <use href="img/svg/plane.svg#plane"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
